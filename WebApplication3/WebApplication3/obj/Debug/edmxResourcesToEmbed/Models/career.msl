@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QRDBModel1StoreContainer" CdmEntityContainer="QRDBEntities1">
+    <EntitySetMapping Name="Student_tbl">
+      <EntityTypeMapping TypeName="QRDBModel1.Student_tbl">
+        <MappingFragment StoreEntitySet="Student_tbl">
+          <ScalarProperty Name="stud_ID" ColumnName="stud_ID" />
+          <ScalarProperty Name="stud_Name" ColumnName="stud_Name" />
+          <ScalarProperty Name="stud_Surname" ColumnName="stud_Surname" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="EducationLevel" ColumnName="EducationLevel" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="resume" ColumnName="resume" />
+          <ScalarProperty Name="qrImage" ColumnName="qrImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
