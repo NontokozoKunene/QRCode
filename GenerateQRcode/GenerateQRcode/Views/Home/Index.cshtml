@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+
+    <input type="text" name="qrcode" />
+    <input type="submit" value="Generate" />
+
+
+   
+}
+
+@if (ViewBag.QRCodeImage != null)
+{
+    <img src="@ViewBag.QRCodeImage" style="height:200px;width:200px" />
+}
